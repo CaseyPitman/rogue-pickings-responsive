@@ -114,9 +114,7 @@ header nav ul li a{
 	width: 100%;
 	border: 3px solid #77a466;
 }
-/*************************************
-			  resume here
-**************************************/
+
 .main-title {
 	height: auto;
 	width:100%;
@@ -190,16 +188,11 @@ header nav ul li a{
 	line-height: 24px;
 }
 
-/*The widths are in a percentage!*/
 footer {
-	height: 50px;
 	border-top: 3px solid #eee;
-	margin: 0 auto;
-	text-align: center;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-
 	width:100%;
 }
 footer span {
