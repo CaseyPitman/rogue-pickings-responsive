@@ -6,13 +6,23 @@ html{
 	font-size:16px;
 }
 body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size:1em;
+	width:100%;
 }
 
 .container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column wrap;
 	max-width: 1200px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	width:100%;
+
 }
 
 h1,
@@ -42,28 +52,34 @@ p {
     padding: 0 30px;
 }
 
-/*The widths are in a percentage!*/
 header {
-	/*try fiddling with the height*/
-	height: 110px;
-	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column wrap;
+	Width:90%;
 }
 
 header h1 {
-	float: left;
-	margin: 0;
-	padding: 38px 0;
+	display:flex;
+	justify-content:center;
+	width:100%;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	float: right;
+	border-top: 3px solid #77a466;
 	padding: 46px 0;
+	width:100%;
 }
 header nav ul {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column wrap;
 	margin: 0;
 	padding: 0;
 }
@@ -71,7 +87,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
+	padding: 5px;
 	display: inline;
 }
 header nav ul li a{
@@ -79,25 +95,32 @@ header nav ul li a{
 	color:#77a466;
 }
 
-/*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0 auto;
-	clear: both;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column wrap;
+	width:90%;
+	
 }
 
 .main-image {
 	height: auto;
-	float: left;
+	
+	
 }
 .main-image img {
 	width: 100%;
-	border-bottom: 3px solid #77a466;
+	border: 3px solid #77a466;
 }
-
+/*************************************
+			  resume here
+**************************************/
 .main-title {
 	height: auto;
-	float: left;
+	width:100%;
+	
 }
 .main-title h3 {
 	text-align: left;
@@ -113,9 +136,12 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column wrap;
+	width: 90%;
 	height: auto;
-	float: left;
 	border-top: 1px solid #eee;
 }
 
@@ -134,8 +160,13 @@ header nav ul li a{
 }
 
 .menu {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column wrap;
 	list-style: none;
 	padding: 0;
+	width:90%;
 }
 .menu li {
 	padding: 10px 0;
@@ -143,12 +174,18 @@ header nav ul li a{
 }
 
 .reviews {
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	color: #333;
 	font-size: 1em;
 	line-height: 21px;
 }
 
 .address {
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	font-size: 1em;
 	line-height: 24px;
 }
@@ -158,8 +195,12 @@ footer {
 	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	clear: both;
 	text-align: center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	width:100%;
 }
 footer span {
 	font-family: 'Wisdom Script', cursive;
