@@ -86,15 +86,16 @@ header nav {
 
 header nav ul {
 	margin: 0;
-	/*padding: 0;
-	text-align:center;*/
+	padding-left:0px;
 }
+
 
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 5px 0 5px 0;
+	text-align:center;
 	list-style: none;
 	width:100%;
 
@@ -105,6 +106,7 @@ header nav ul li a{
 	color:#77a466;
 	display:inline-flex;
 	width:100%;
+	justify-content:center;
 }	
 
 .top-section,
