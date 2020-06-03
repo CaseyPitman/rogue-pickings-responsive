@@ -163,7 +163,7 @@ header nav ul li a{
 	padding: 0;
 }
 
-.menu ul li {
+.menu li {
 	list-style: none;
 	padding: 10px 0;
 	color:#ff6600;
@@ -175,8 +175,11 @@ header nav ul li a{
 	line-height: 21px;
 }
 /*Contact*/
-.address {
+
+
+.address-text {
 	font-size: 1em;
+	font-style:normal;
 	line-height: 24px;
 	width:100%;
 }
@@ -185,6 +188,7 @@ header nav ul li a{
 	color:#ff6600;
 	font-size:3em;
 }
+
 /*Footer*/
 footer {
 	border-top: 3px solid #eee;
