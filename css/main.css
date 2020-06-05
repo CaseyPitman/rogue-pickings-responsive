@@ -176,6 +176,9 @@ header nav ul li a{
 }
 /*Contact*/
 
+#contact-head{
+	font-style:normal;
+}
 
 .address-text {
 	font-size: 1em;
